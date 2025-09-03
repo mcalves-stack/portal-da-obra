@@ -178,7 +178,7 @@
 </section>
 
 <!-- Como Funciona -->
-<section class="py-8 sm:py-12 lg:py-16 bg-gray-50">
+<section class="py-8 sm:py-12 lg:py-16 white">
   <div class="container mx-auto px-4 text-center">
     <!-- Título -->
     <h2 class="text-center font-dm font-black text-2xl sm:text-3xl lg:text-[45px] leading-8 sm:leading-10 lg:leading-[60px] tracking-wider lg:tracking-[0.45px] text-[#001D4A] opacity-100 mb-4">Como Funciona</h2>
@@ -271,8 +271,8 @@
 
     <!-- Título -->
     <div class="text-center mb-12">
-      <h2 class="text-3xl sm:text-4xl font-bold mb-3">Empresas que confiam em nós</h2>
-      <p class="text-blue-200 text-base sm:text-lg">Resultados comprovados e clientes satisfeitos</p>
+      <h2 class="text-3xl sm:text-4xl font-bold mb-3 font-dm">Empresas que confiam em nós</h2>
+      <p class="text-blue-200 text-base sm:text-lg font-dm">Resultados comprovados e clientes satisfeitos</p>
     </div>
 
     <!-- Logos -->
@@ -293,16 +293,22 @@
       <!-- Testimonial 1 -->
       <div class="bg-white text-gray-900 px-12 py-10 rounded-[50px] shadow-[0px_20px_30px_rgba(5,20,44,0.2)]">
         <div class="flex items-center mb-6">
-          <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mr-4">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"/></svg>
+          <div class="w-12 h-12 flex items-center justify-center mr-4">
+            <img src="{% static 'images/profile-icon.svg' %}" alt="Profile" class="w-12 h-12">
           </div>
           <div>
-            <h4 class="font-bold">João Silva</h4>
-            <p class="text-gray-600 text-sm">Diretor de Facilities</p>
-            <p class="text-yellow-500 text-sm">★★★★★</p>
+            <h4 class="font-bold font-dm">João Silva</h4>
+            <p class="text-gray-600 text-sm font-dm">Diretor de Facilities</p>
+            <div class="flex gap-1">
+              <img src="{% static 'images/noun-star.svg' %}" alt="Star" class="w-[15px] h-[14px]">
+              <img src="{% static 'images/noun-star.svg' %}" alt="Star" class="w-[15px] h-[14px]">
+              <img src="{% static 'images/noun-star.svg' %}" alt="Star" class="w-[15px] h-[14px]">
+              <img src="{% static 'images/noun-star.svg' %}" alt="Star" class="w-[15px] h-[14px]">
+              <img src="{% static 'images/noun-star.svg' %}" alt="Star" class="w-[15px] h-[14px]">
+            </div>
           </div>
         </div>
-        <p class="text-left italic font-light text-[20px] leading-[30px] tracking-[0.2px] text-[#001D4A]" style="font-family: 'Inter';">
+        <p class="text-left italic font-light text-[20px] leading-[30px] tracking-[0.2px] text-[#001D4A] font-dm">
           "Finalmente encontramos fornecedores realmente qualificados. Nossa última obra foi entregue no prazo e dentro do orçamento. Recomendo!"
         </p>
       </div>
@@ -310,120 +316,142 @@
       <!-- Testimonial 2 -->
       <div class="bg-white text-gray-900 px-12 py-10 rounded-[50px] shadow-[0px_20px_30px_rgba(5,20,44,0.2)]">
         <div class="flex items-center mb-6">
-          <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mr-4">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"/></svg>
+          <div class="w-12 h-12 flex items-center justify-center mr-4">
+            <img src="{% static 'images/profile-icon.svg' %}" alt="Profile" class="w-12 h-12">
           </div>
           <div>
-            <h4 class="font-bold">Mariana Santos</h4>
-            <p class="text-gray-600 text-sm">Gerente de Projetos</p>
-            <p class="text-yellow-500 text-sm">★★★★★</p>
+            <h4 class="font-bold font-dm">Mariana Santos</h4>
+            <p class="text-gray-600 text-sm font-dm">Gerente de Projetos</p>
+            <div class="flex gap-1">
+              <img src="{% static 'images/noun-star.svg' %}" alt="Star" class="w-[15px] h-[14px]">
+              <img src="{% static 'images/noun-star.svg' %}" alt="Star" class="w-[15px] h-[14px]">
+              <img src="{% static 'images/noun-star.svg' %}" alt="Star" class="w-[15px] h-[14px]">
+              <img src="{% static 'images/noun-star.svg' %}" alt="Star" class="w-[15px] h-[14px]">
+              <img src="{% static 'images/noun-star.svg' %}" alt="Star" class="w-[15px] h-[14px]">
+            </div>
           </div>
         </div>
-        <p class="text-left italic font-light text-[20px] leading-[30px] text-[#001D4A]" style="font-family: 'Inter';">
+        <p class="text-left italic font-light text-[20px] leading-[30px] text-[#001D4A] font-dm">
           "A transparência e o suporte técnico do Portal da Obra fizeram toda a diferença no nosso projeto. Processo muito profissional!"
         </p>
       </div>
     </div>
 
-    <!-- Rodapé da section -->
-    <div class="text-center mt-12">
-      <span class="inline-flex items-center bg-[#0047AB] px-6 py-3 rounded-full text-white font-medium">
-        <img src="CAMINHO-ICONE" alt="Ícone fornecedores" class="w-5 h-5 mr-2">
-        Fornecedores Qualificados
-      </span>
-    </div>
+    <!-- Call to Action Button -->
+    <button class="hover:bg-blue-700 font-medium transition-all mt-[4.92rem] transform hover:scale-105 flex items-center mx-auto px-4 sm:px-6 lg:px-[2rem] py-3 sm:py-4 lg:py-[2rem]" style="background: #0047AB; border-radius: 44px; opacity: 1;">
+      <img src="{% static 'images/broxe.svg' %}" alt="WhatsApp" class="mr-2 sm:mr-4">
+      <span class="text-left font-dm font-medium text-base sm:text-lg lg:text-[23px] leading-5 sm:leading-6 lg:leading-[30px] tracking-wide lg:tracking-[0.23px] text-white opacity-100">Fornecedores Qualificados</span>
+    </button>
   </div>
 </section>
 
 <!-- Por que escolher -->
-<section class="py-16 bg-gray-50">
-  <div class="container mx-auto px-6">
-    <div class="text-center mb-12">
-      <h2 class="text-3xl font-bold text-gray-900 mb-4">Por que escolher o Portal da Obra?</h2>
-      <p class="text-lg text-gray-600">Vantagens exclusivas para sua empresa</p>
-    </div>
+<section class="py-8 sm:py-12 lg:py-16 white">
+  <div class="container mx-auto px-4 text-center">
+    <!-- Título -->
+    <h2 class="text-center font-dm font-black text-2xl sm:text-3xl lg:text-[45px] leading-8 sm:leading-10 lg:leading-[60px] tracking-wider lg:tracking-[0.45px] text-[#001D4A] opacity-100 mb-4">Por que escolher o Portal da Obra?</h2>
+    <p class="text-center font-dm font-light text-base sm:text-lg lg:text-[23px] leading-6 sm:leading-7 lg:leading-[35px] tracking-wide lg:tracking-[0.23px] text-[#001D4A] opacity-100 mb-8 sm:mb-12 lg:mb-16">Vantagens exclusivas para sua empresa</p>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+    <!-- Steps -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 mb-8 sm:mb-12 lg:mb-16 relative">
       
-      <!-- Advantage 1 -->
-      <div class="text-center">
-        <div class="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-6">
-          <img src="{% static 'images/icone-obra-no-prazo.png' %}" alt="Mais produtividade" class="w-8 h-8">
+      <!-- Step 1 -->
+      <div class="flex flex-col items-center relative z-10">
+        <!-- Card -->
+        <div class="p-4 sm:p-6 lg:p-8 w-full max-w-sm sm:max-w-md lg:w-[424px] lg:h-[309px] h-auto rounded-[30px] sm:rounded-[40px] lg:rounded-[50px] flex flex-col justify-center items-center" style="background: linear-gradient(180deg, #c6d6f0 0.00%, #dde7f6 21.18%, #ffffff 100.00%); filter: drop-shadow(0px 20px 15px rgba(5,20,44,0.2));">
+          <!-- Ícone interno -->
+          <div class="w-12 h-12 sm:w-16 sm:h-16 lg:w-[74px] lg:h-[74px] bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
+            <img src="{% static 'images/calender.png' %}" alt="Lápis" class="">
+          </div>
+          
+          <div class="text-center">
+            <h3 class="text-center font-dm font-black text-lg sm:text-xl lg:text-[23px] leading-6 sm:leading-7 lg:leading-[30px] tracking-wide lg:tracking-[0.23px] text-[#001D4A] opacity-100 mb-3 sm:mb-4">Mais previsibilidade</h3>
+            <p class="text-center font-dm font-light text-sm sm:text-base lg:text-[20px] leading-5 sm:leading-6 lg:leading-[30px] tracking-wide lg:tracking-[0.2px] text-[#001D4A] opacity-100">Cronogramas claros e compromissos firmes para você planejar com total segurança</p>
+          </div>
         </div>
-        <h3 class="text-xl font-bold text-gray-900 mb-3">Mais produtividade</h3>
-        <p class="text-gray-600">
-          Economize tempo e foque no negócio. Nossos processos otimizados aceleram suas decisões.
-        </p>
       </div>
 
-      <!-- Advantage 2 -->
-      <div class="text-center">
-        <div class="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-6">
-          <img src="{% static 'images/icone-orcamento.png' %}" alt="Mais segurança" class="w-8 h-8">
+      <!-- Step 2 -->
+      <div class="flex flex-col items-center relative z-10">
+        
+        <!-- Card -->
+        <div class="p-4 sm:p-6 lg:p-8 w-full max-w-sm sm:max-w-md lg:w-[424px] lg:h-[309px] h-auto rounded-[30px] sm:rounded-[40px] lg:rounded-[50px] flex flex-col justify-center items-center" style="background: linear-gradient(180deg, #c6d6f0 0.00%, #dde7f6 21.18%, #ffffff 100.00%); filter: drop-shadow(0px 20px 15px rgba(5,20,44,0.2));">
+          <!-- Ícone interno -->
+          <div class="w-12 h-12 sm:w-16 sm:h-16 lg:w-[74px] lg:h-[74px] bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
+            <img src="{% static 'images/security.png' %}" alt="Estrela" class="">
+          </div>
+          
+          <div class="text-center">
+            <h3 class="text-center font-dm font-black text-lg sm:text-xl lg:text-[23px] leading-6 sm:leading-7 lg:leading-[30px] tracking-wide lg:tracking-[0.23px] text-[#001D4A] opacity-100 mb-3 sm:mb-4">Mais segurança</h3>
+            <p class="text-center font-dm font-light text-sm sm:text-base lg:text-[20px] leading-5 sm:leading-6 lg:leading-[30px] tracking-wide lg:tracking-[0.2px] text-[#001D4A] opacity-100">Fornecedores avaliados antes e durante a obra com critérios rigorosos de qualidade</p>
+          </div>
         </div>
-        <h3 class="text-xl font-bold text-gray-900 mb-3">Mais segurança</h3>
-        <p class="text-gray-600">
-          Fornecedores validados pelos nossos critérios e pelo mercado. Contratos e acompanhamento detalhado.
-        </p>
       </div>
 
-      <!-- Advantage 3 -->
-      <div class="text-center">
-        <div class="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-6">
-          <img src="{% static 'images/icone-fornecedores.png' %}" alt="Mais controle" class="w-8 h-8">
+      <!-- Step 3 -->
+      <div class="flex flex-col items-center relative z-10">
+        <!-- Card -->
+        <div class="p-4 sm:p-6 lg:p-8 w-full max-w-sm sm:max-w-md lg:w-[424px] lg:h-[309px] h-auto rounded-[30px] sm:rounded-[40px] lg:rounded-[50px] flex flex-col justify-center items-center" style="background: linear-gradient(180deg, #c6d6f0 0.00%, #dde7f6 21.18%, #ffffff 100.00%); filter: drop-shadow(0px 20px 15px rgba(5,20,44,0.2));">
+          <!-- Ícone interno -->
+          <div class="w-12 h-12 sm:w-16 sm:h-16 lg:w-[74px] lg:h-[74px] bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
+            <img src="{% static 'images/L-controle.png' %}" alt="Check" class="">
+          </div>
+          
+          <div class="text-center">
+            <h3 class="text-center font-dm font-black text-lg sm:text-xl lg:text-[23px] leading-6 sm:leading-7 lg:leading-[30px] tracking-wide lg:tracking-[0.23px] text-[#001D4A] opacity-100 mb-3 sm:mb-4">Mais Controle</h3>
+            <p class="text-center font-dm font-light text-sm sm:text-base lg:text-[20px] leading-5 sm:leading-6 lg:leading-[30px] tracking-wide lg:tracking-[0.2px] text-[#001D4A] opacity-100">Relatórios físico-financeiros e retenção contratual para transparência total</p>
+          </div>
         </div>
-        <h3 class="text-xl font-bold text-gray-900 mb-3">Mais controle</h3>
-        <p class="text-gray-600">
-          Acompanhamento em tempo real de sua obra. Processos padronizados para acompanhamento detalhado.
-        </p>
       </div>
     </div>
   </div>
 </section>
 
+<!-- Pronto para contratar -->
+<section class="py-16 sm:py-20 lg:py-24 relative" style="background-image: url('{% static 'images/fundo-bg-2.png' %}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+  <div class="container mx-auto px-4 text-center">
+    <h2 class="text-center font-dm font-black text-2xl sm:text-3xl lg:text-[60px] leading-tight sm:leading-[1.2] lg:leading-[60px] text-white mb-6 sm:mb-8">
+      Pronto para contratar<br>
+      sua próxima obra com segurança<br>
+      e sem dor de cabeça?
+    </h2>
+    <p class="text-center font-dm font-light text-[25px] leading-[37px] tracking-[0.25px] text-[#C6D6F0]  mx-auto">
+      Junte-se às empresas que já descobriram como contratar obras corporativas<br>
+      de forma inteligente, segura e eficiente
+    </p>
+  </div>
+</section>
+
 <!-- Formulário de Contato -->
-<section id="contato" class="py-16 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
-  <div class="container mx-auto px-6">
-    <div class="max-w-2xl mx-auto">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold mb-4">
-          Pronto para contratar sua próxima obra com segurança e sem dor de cabeça?
-        </h2>
-        <p class="text-blue-100">
-          Junte-se às empresas que já descobriram como contratar obras corporativas de forma inteligente, segura e eficiente
-        </p>
-      </div>
-
+<section id="contato" class="py-16 sm:py-20 lg:py-24" style="background-color: #C6D6F0;">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-6xl mx-auto">
       <!-- Contact Form -->
-      <form class="space-y-6">
+      <form class="space-y-4 sm:space-y-6">
         <div>
-          <input type="text" placeholder="Nome Completo" class="w-full px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 border-0 focus:ring-2 focus:ring-blue-300">
+          <input type="text" placeholder="Nome Sobrenome" class="w-full px-6 py-4 sm:py-5 rounded-[50px] text-gray-600 placeholder-gray-400 bg-white border-0 focus:ring-2 focus:ring-blue-300 font-dm text-base sm:text-lg shadow-sm">
         </div>
         <div>
-          <input type="email" placeholder="E-mail" class="w-full px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 border-0 focus:ring-2 focus:ring-blue-300">
+          <input type="email" placeholder="E-mail" class="w-full px-6 py-4 sm:py-5 rounded-[50px] text-gray-600 placeholder-gray-400 bg-white border-0 focus:ring-2 focus:ring-blue-300 font-dm text-base sm:text-lg shadow-sm">
         </div>
         <div>
-          <input type="tel" placeholder="Telefone" class="w-full px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 border-0 focus:ring-2 focus:ring-blue-300">
+          <input type="tel" placeholder="Telefone" class="w-full px-6 py-4 sm:py-5 rounded-[50px] text-gray-600 placeholder-gray-400 bg-white border-0 focus:ring-2 focus:ring-blue-300 font-dm text-base sm:text-lg shadow-sm">
         </div>
         <div>
-          <input type="text" placeholder="Nome da Empresa" class="w-full px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 border-0 focus:ring-2 focus:ring-blue-300">
+          <input type="text" placeholder="Nome da Empresa" class="w-full px-6 py-4 sm:py-5 rounded-[50px] text-gray-600 placeholder-gray-400 bg-white border-0 focus:ring-2 focus:ring-blue-300 font-dm text-base sm:text-lg shadow-sm">
         </div>
         <div>
-          <select class="w-full px-4 py-3 rounded-lg text-gray-900 border-0 focus:ring-2 focus:ring-blue-300">
-            <option>Qual o faturamento do ano passado?</option>
-            <option>Até R$ 1 milhão</option>
-            <option>R$ 1 milhão a R$ 5 milhões</option>
-            <option>R$ 5 milhões a R$ 20 milhões</option>
-            <option>Acima de R$ 20 milhões</option>
-          </select>
+          <input type="text" placeholder="Qual o faturamento do ano anterior?" class="w-full px-6 py-4 sm:py-5 rounded-[50px] text-gray-600 placeholder-gray-400 bg-white border-0 focus:ring-2 focus:ring-blue-300 font-dm text-base sm:text-lg shadow-sm">
         </div>
         <div>
-          <textarea placeholder="Quando você quer entrar em contato?" rows="4" class="w-full px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 border-0 focus:ring-2 focus:ring-blue-300"></textarea>
+          <input type="text" placeholder="Quantos anos a empresa tem?" class="w-full px-6 py-4 sm:py-5 rounded-[50px] text-gray-600 placeholder-gray-400 bg-white border-0 focus:ring-2 focus:ring-blue-300 font-dm text-base sm:text-lg shadow-sm">
         </div>
 
-        <div class="text-center">
-          <button type="submit" class="bg-blue-800 hover:bg-blue-900 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-            Conectar agora
+        <div class="text-center pt-4 sm:pt-6">
+           <!-- Call to Action Button -->
+          <button class="hover:bg-blue-700 font-medium transition-all mt-6 transform hover:scale-105 flex items-center mx-auto px-4 sm:px-6 lg:px-[2rem] py-3 sm:py-4 lg:py-[2rem]" style="background: #0047AB; border-radius: 2.75rem; opacity: 1; box-shadow: 0 20px 10px 0 rgba(0, 29, 74, 0.50);">
+            <img src="{% static 'images/foguete.png' %}" alt="WhatsApp" class="mr-2 sm:mr-4">
+            <span class="text-left font-dm font-medium text-base sm:text-lg lg:text-[23px] leading-5 sm:leading-6 lg:leading-[30px] tracking-wide lg:tracking-[0.23px] text-white opacity-100">Começar Agora</span>
           </button>
         </div>
       </form>
