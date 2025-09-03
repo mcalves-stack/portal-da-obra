@@ -1,0 +1,47 @@
+{% load static %}
+
+<!-- Header -->
+<header class="bg-white shadow-sm">
+  <div class="container mx-auto px-6 py-4">
+    <div class="flex items-center justify-between">
+      <!-- Logo -->
+      <div class="flex items-center">
+        <img src="{% static 'images/logo-portalobra.svg' %}" alt="Portal da Obra" class="h-8">
+      </div>
+      <div class="relative">
+        <a href="#contato" 
+        class="absolute top-1/2 right-0 md:inline-flex hidden items-center gap-3 text-white text-sm z-50 font-medium shadow-lg transition-colors"
+        style="background: #5B8FDB; padding: 12px 40px; border-radius: 44px; transform: translateY(-13%);">
+        
+        <div class="flex items-center justify-center w-9 h-9 rounded-lg">
+          <img src="{% static 'images/icone-empresa.png' %}" 
+              alt="Empresa" 
+              style="width: 1.875rem; height: 2rem;">
+        </div>
+            
+        <div>
+          <div class="text-white font-inter text-xl font-normal tracking-wide">Construtora:</div>
+          <div class="text-white font-inter text-xl font-normal tracking-wide">Faça Parte</div>
+        </div>
+      </a>
+      
+      <!-- Mobile Button -->
+      <a href="#contato" 
+      class="md:hidden inline-flex items-center gap-2 text-white text-xs z-50 font-medium shadow-lg transition-colors"
+      style="background: #5B8FDB; padding: 8px 16px; border-radius: 20px;">
+      
+      <div class="flex items-center justify-center w-6 h-6 rounded">
+        <img src="{% static 'images/icone-empresa.png' %}" 
+            alt="Empresa" 
+            class="w-4 h-4">
+      </div>
+          
+      <div>
+        <div class="text-white font-inter text-xl font-normal tracking-wide" style="line-height: 1.875rem;">Faça Parte</div>
+      </div>
+    </a>
+      </div>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(django-admin startproject:*)",
+      "WebFetch(domain:xd.adobe.com)",
+      "Read(c:\\Users\\mcalv\\Downloads/**)",
+      "Read(c:\\Users\\mcalv\\Downloads/**)",
+      "Read(c:\\Users\\mcalv\\Downloads/**)",
+      "Read(c:\\Users\\mcalv\\Downloads/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
