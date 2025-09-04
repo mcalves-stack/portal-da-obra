@@ -1,0 +1,160 @@
+@media (max-width: 1440px) {
+    .xl .text-6xl {
+        font-size: 3.75rem;
+        line-height: 1;
+        margin-top: -1rem;
+    }
+
+    .pp {
+        margin-top: -4rem !important;
+        margin-left: -6rem;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .lg\:mt-\[1rem\] {
+        margin-top: -1rem;
+    }
+    
+    .titulo {
+        margin-top: -2rem;
+    }
+
+
+    .benefios {
+        margin-left: 64rem;
+    }
+
+}
+
+/* Media query específica para resolução 1440px */
+@media only screen and (min-width: 1440px) and (max-width: 1440px) {
+  .lg-notebook-title {
+    font-size: 2.75rem !important;
+    line-height: 1 !important;
+    max-width: 45rem !important;
+  }
+
+  .lg-notebook-position {
+    top: 26.5rem !important;
+    left: 8.4rem !important;
+    max-width: 40rem !important;
+  }
+  
+  .text-6xl.xl\\:text-7xl,
+  .xl\\:text-7xl {
+    font-size: 4rem !important;
+    line-height: 1 !important;
+    margin-top: 1rem !important;
+  }
+  
+  /* Separar cards na seção Como Funciona */
+  #como-funciona .grid.lg\\:grid-cols-3 {
+    gap: 3rem !important;
+  }
+  
+  #como-funciona .lg {
+    max-width: 350px !important;
+  }
+  
+  /* Separar cards na seção Por que escolher */
+  section#por-que-escolher .grid-cols-1.lg\\:grid-cols-3 {
+    gap: 4rem !important;
+  }
+  
+  section#por-que-escolher div.lg {
+    width: 320px !important;
+    min-width: 320px !important;
+    max-width: 320px !important;
+  }
+}
+
+/* Media query para notebooks tradicionais (1024px - 1279px) */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lg-notebook-title {
+    font-size: 2.75rem !important;
+    line-height: 1 !important;
+    max-width: 45rem !important;
+  }
+
+  /* Ajuste de largura dos cards */
+  #como-funciona .lg\:w-\[424px\] {
+    width: 370px !important;   /* antes 372px */
+    max-width: 370px !important;
+  }
+
+  /* Mais espaçamento entre os cards */
+  #como-funciona .grid.lg\:grid-cols-3 {
+    gap: 4rem !important;   /* antes 3rem */
+  }
+  
+  .lg-notebook-position {
+    top: 26.5rem !important;
+    left: 8.4rem !important;
+    max-width: 40rem !important;
+  }
+  
+  .text-6xl.xl\\:text-7xl,
+  .xl\\:text-7xl {
+    font-size: 4rem !important;
+    line-height: 1 !important;
+    margin-top: 1rem !important;
+  }
+  
+  /* Separar cards na seção Como Funciona para notebooks */
+  #como-funciona .grid.lg\\:grid-cols-3 {
+    gap: 3rem !important;
+  }
+  
+  #como-funciona .lg {
+    width: 372px !important;
+  }
+  
+  /* Separar cards na seção Por que escolher para notebooks */
+  #por-que-escolher .grid {
+    gap: 4rem !important;
+  }
+  
+  #por-que-escolher .lg,
+  #por-que-escolher div[class*="lg:w-[424px]"] {
+    width: 364px !important;
+    max-width: 364px !important;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .lg-notebook-title {
+    font-size: 3.600rem !important;
+    line-height: 1 !important;
+    margin-top: -1rem !important;
+  }
+  
+  
+  .lg-notebook-position {
+    top: 29.5rem !important;
+    left: 15rem !important;
+  }
+  
+  .xl\\:text-7xl {
+    font-size: 4.5rem !important;
+    line-height: 1 !important;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  .lg-notebook-title {
+    font-size: 3.600rem !important;
+    line-height: 1 !important;
+    margin-top: -1rem !important;
+  }
+
+  .benefios {
+    margin-left: 82rem;
+  }
+  
+  .titulo {
+    margin-top: -1rem !important;
+  }
+}
+
